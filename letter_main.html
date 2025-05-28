@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shame A Brand Letter Writing Helper</title>
+    <style>
+        body {
+            background: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            color: #000;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            max-width: 800px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        select, input[type="text"], input[type="number"] {
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin: 0 4px;
+            vertical-align: middle;
+        }
+
+        input#companyHandle {
+            width: 120px;
+        }
+
+        .text-line {
+            text-align: left;
+            margin: 0;
+            line-height: 1.8em;
+        }
+
+        button {
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 12px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 20px;
+            resize: vertical;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form id="letterForm">
+        <p class="text-line">
+            <select id="greeting">
+                <option>Hi</option>
+                <option>Dear</option>
+                <option>GM</option>
+            </select>
+            @<input type="text" id="companyHandle" placeholder="Company Handle">
+            , as a
+            <select id="dedication">
+                <option>dedicated</option>
+                <option>fair-weather</option>
+                <option>recent</option>
+            </select>
+            <select id="role">
+                <option>customer</option>
+                <option>supporter</option>
+                <option>set of eyeballs</option>
+            </select>
+            for the past
+            <input type="number" id="duration" min="0" max="99">
+            <select id="durationUnit">
+                <option>weeks</option>
+                <option>minutes</option>
+                <option>tiktok posts</option>
+            </select>, I was
+            <select id="disappointment">
+                <option>disappointed</option>
+                <option>let down</option>
+                <option>super disappointed</option>
+            </select>
+            when I
+            <select id="action">
+                <option>saw</option>
+                <option>saw a re-post saying that</option>
+                <option>heard a podcast about the re-post that</option>
+            </select>
+            your
+            <select id="brandType">
+                <option>brand</option>
+                <option>label</option>
+                <option>collective</option>
+                <option>media outlet</option>
+                <option>agency</option>
+                <option>influencer house</option>
+            </select>
+            is still
+            <select id="activity">
+                <option>active</option>
+                <option>generating content</option>
+                <option>linking to your podcast</option>
+            </select>
+            on X. Given Elon Musk’s
+            <select id="offense">
+                <option>misinformation</option>
+                <option>spreading of hate speech</option>
+                <option>misogynistic comments</option>
+                <option>targeting of individuals</option>
+                <option>firing people</option>
+                <option>killing poor people via shuttering US AID</option>
+                <option>repeated  lying</option>
+                <option>abandoning his own children</option>
+                <option>paying off people</option>
+                <option>egomaniacal behavior</option>
+                <option>being an arch capitalist</option>
+                <option>having no empathy</option>
+                <option>working with Donald Trump</option>
+                <option>ruining Tesla</option>
+            </select>,
+            continuing to
+            <select id="support">
+                <option>advertise</option>
+                <option>promote</option>
+                <option>attempt to 10x growth</option>
+            </select>
+            here
+            <select id="comparison">
+                <option>feels</option>
+                <option>is like</option>
+                <option>is kinda like</option>
+            </select>
+            <select id="contrast">
+                <option>out of step</option>
+                <option>weird</option>
+                <option>awkward?</option>
+            </select>
+            in contrast to the
+            <select id="valueSet">
+                <option>values</option>
+                <option>vibes</option>
+                <option>credo</option>
+                <option>dogmatic list of terms</option>
+            </select>
+            of
+            <select id="virtues">
+                <option>inclusivity</option>
+                <option>respect</option>
+                <option>truth</option>
+                <option>community</option>
+                <option>maximizing impressions</option>
+            </select>
+            that
+            <select id="source">
+                <option>your company</option>
+                <option>the marketing department</option>
+                <option>the social media manager</option>
+            </select>
+            <select id="claim">
+                <option>claims to champion</option>
+                <option>hired an agency to develop</option>
+                <option>saw a dearth of in the market place</option>
+            </select>. By using X you are not
+            <select id="only">
+                <option>only</option>
+                <option>just</option>
+                <option>simply</option>
+            </select>
+            <select id="damage">
+                <option>building his wealth</option>
+                <option>shoveling accelerants onto the social media conflagration</option>
+                <option>destroying humanity tweet by tweet</option>
+            </select>
+            but also contributing to
+            <select id="contribution">
+                <option>an intolerant and corrupt society</option>
+                <option>a general mal de vivre</option>
+                <option>Weltschmerz</option>
+            </select>
+        </p>
+        <p class="text-line" style="margin-top: 1.5em;">
+            I
+            <select id="target">
+                <option>respectfully ask</option>
+            </select>
+            <select id="actionRequest">
+                <option>you</option>
+                <option>your VP of marketing</option>
+            </select>
+            to
+            <select id="platform">
+                <option>reconsider</option>
+                <option>recalculate the ROI of</option>
+            </select>
+            your presence on this
+            <select id="leadership">
+                <option>platform</option>
+                <option>“platform”</option>
+                <option>surveillance software</option>
+                <option>investment vehicle</option>
+            </select>
+            and
+            <select id="gesture">
+                <option>show leadership</option>
+                <option>modify your omni-channel solution strategy</option>
+            </select>
+            by
+            <select id="audience">
+                <option>standing</option>
+                <option>vibing</option>
+                <option>showing out</option>
+            </select>
+            with
+            <select id="expectation">
+                <option>customers</option>
+                <option>the public</option>
+                <option>the loudest segment of users</option>
+            </select>
+            who
+            <select id="expectation2">
+                <option>expect better</option>
+                <option>have time to write letters</option>
+            </select>.
+            #DeleteX
+        </p>
+       <div class="button-container" style="justify-content: flex-start; gap: 10px; flex-wrap: wrap;">
+    <button type="button" onclick="generateLetter()">Generate Complaint Letter</button>
+</div>
+<textarea id="output" readonly></textarea>
+<button type="button" onclick="copyToClipboard()">Copy</button>
+    </form>
+</div>
+
+<script>
+function generateLetter() {
+    const ids = ["greeting","companyHandle","dedication","role","duration","durationUnit","disappointment","action","brandType","activity","offense","support","comparison","contrast","valueSet","virtues","source","claim","only","damage","contribution","target","actionRequest","platform","leadership","gesture","audience","expectation","expectation2"];
+    const values = {};
+    ids.forEach(id => {
+        const el = document.getElementById(id);
+        values[id] = el.value;
+    });
+
+    const letter = `${values.greeting} @${values.companyHandle}, as a ${values.dedication} ${values.role} for the past ${values.duration} ${values.durationUnit}, I was ${values.disappointment} when I ${values.action} your ${values.brandType} is still ${values.activity} on X. Given Elon Musk’s ${values.offense}, continuing to ${values.support} here ${values.comparison} ${values.contrast} in contrast to the ${values.valueSet} of ${values.virtues} that ${values.source} ${values.claim}. By using X you are not ${values.only} ${values.damage} but also contributing to ${values.contribution}.
+
+I ${values.target} ${values.actionRequest} to ${values.platform} your presence on this ${values.leadership} and ${values.gesture} by ${values.audience} with ${values.expectation} who ${values.expectation2}. #DeleteX`;
+
+    document.getElementById("output").value = letter;
+}
+
+function copyToClipboard() {
+    const output = document.getElementById("output");
+    output.select();
+    output.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(output.value).then(() => {
+        alert("Letter copied to clipboard.");
+    }).catch(err => {
+        alert("Failed to copy: " + err);
+    });
+}
+</script>
+</body>
+</html>
